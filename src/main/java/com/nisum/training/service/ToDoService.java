@@ -35,4 +35,7 @@ public class ToDoService {
     }
 
 
+    public ToDo actualizarToDo(ToDo myToDo) {
+        return todoRepository.save(myToDo);
+    }
 }
